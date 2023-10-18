@@ -1,0 +1,71 @@
+.map-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease; /* Smooth transition for opacity changes */
+  }
+
+.search-box {
+    height: 150px;
+    width: 370px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    z-index: 1;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  #map{
+    height: 100vh;
+    width: 100%;
+  }
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.faded {
+    /* background-color: rgba(0, 0, 0, 0.8) !important; */
+    /* background-color: black; */
+    opacity: 0.8; 
+  }
+
+@media (max-width: 767px) {
+    .search-box {
+      position: fixed;
+      bottom: 20px;
+      top: auto;
+      left: 20px;
+    }
+}
+
+
+/* Add this CSS to your component's stylesheet or global stylesheet */
+.gm-style-iw + div {
+  display: none !important;
+}
+
+/* Add this CSS to your page or stylesheet */
+.gm-style-iw + div {
+  display: none !important;
+}
+
+
+/* custom-info-window.component.css */
+.custom-info-window {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Add more styling as needed */
+}
+
+
+
+
+
+
+
